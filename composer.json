@@ -1,0 +1,36 @@
+{
+    "name": "evozon/translatr",
+    "description": "Adds integration with multiple translation services, as OneSky, PoEditor, Crowdin, etc.",
+    "keywords": ["translation", "translator", "api", "service", "onesky", "poeditor", "crowdin"],
+    "homepage": "https://github.com/balazscsaba2006/EvozonTranslatrBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Balazs Csaba",
+            "email": "csaba.balazs@evozon.com"
+        },
+        {
+            "name": "Calin Bolea",
+            "email": "calin.bolea@evozon.com"
+        },
+        {
+            "name": "Calin Pristavu",
+            "email": "calin.pristavu@evozon.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "suggest": {
+        "onesky/api-library-php5": "Adds API client support for OneSky integration"
+    },
+    "autoload": {
+        "psr-4": {"Evozon\\TranslatrBundle\\": ""}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
